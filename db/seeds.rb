@@ -11,7 +11,8 @@ Flat.create!(
   address: '10 Clifton Gardens London W9 1DT',
   description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
   price_per_night: 750,
-  number_of_guests: 3
+  number_of_guests: 3,
+  img_url: 'https://i2.wp.com/www.thesun.co.uk/wp-content/uploads/2020/02/NINTCHDBPICT000566360832.jpg'
 )
 
 Flat.create!(
@@ -19,15 +20,17 @@ Flat.create!(
   address: '69 Clit Gardens London W66 6DT',
   description: 'A scary feel for this spacious garden flat. Two double bedrooms, open plan dying area, large kitchen and a beautiful sanatory',
   price_per_night: 800,
-  number_of_guests: 4
+  number_of_guests: 4,
+  img_url: 'https://media.istockphoto.com/photos/ugly-house-picture-id90672587'
 )
 
 Flat.create!(
-  name: 'House swap in Birmingham',
+  name: 'House swap in incredible Birmingham',
   address: '46 Ballas Hood',
   description: 'Feel your privacy going to the space with this ridiculous idea!',
   price_per_night: 5,
-  number_of_guests: 9
+  number_of_guests: 9,
+  img_url: 'https://static.dw.com/image/53765476_401.jpg'
 )
 
 Flat.create!(
@@ -35,5 +38,6 @@ Flat.create!(
   address: 'Zoobomafoo - 14',
   description: 'Eu, voce e seu hospede na sua nova casa com 4 quartos',
   price_per_night: 300,
-  number_of_guests: 1
+  number_of_guests: 1,
+  img_url: 'https://static.planetminecraft.com/files/resource_media/screenshot/1319/2013-05-06_133848_5399263.jpg'
 )
